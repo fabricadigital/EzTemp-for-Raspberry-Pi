@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/09/2014 15:29:41
+
+BeginCmp
+TimeStamp = /53BBC0FF;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBA879;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = SMD_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBA888;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBA8AE;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = SMD_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBBDB9;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = SMD_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54106932;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = SMD_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBC032;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_4POS_1ROW_PTH_RA_2.54MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A9AAC;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_4POS_1ROW_PTH_RA_2.54MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBC20A;
+Reference = P3;
+ValeurCmp = CONN_5;
+IdModule  = PIN_5POS_1ROW_PTH_RA_2.54MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A9F12;
+Reference = R1;
+ValeurCmp = 1.5K;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541A9F21;
+Reference = R2;
+ValeurCmp = 680;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBACA5;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541AA4FB;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /541AA501;
+Reference = R5;
+ValeurCmp = 10K;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /542174F8;
+Reference = R6;
+ValeurCmp = 5.6k;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54217507;
+Reference = R7;
+ValeurCmp = 5.6k;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBACB4;
+Reference = TH1;
+ValeurCmp = THERMISTOR;
+IdModule  = SMD_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBA7E6;
+Reference = U1;
+ValeurCmp = CY8C4100-28SSOP;
+IdModule  = CY8C4xxx-28SSOP;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BBD4DF;
+Reference = U2;
+ValeurCmp = HIH5030;
+IdModule  = HIH5030;
+EndCmp
+
+EndListe
