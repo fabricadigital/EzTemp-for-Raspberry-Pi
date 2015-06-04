@@ -27,7 +27,7 @@ SOFTWARE.
 
 #include <project.h>
 
-#define _VERSION_       0x0002u
+#define _VERSION_       0x0202u
 
 struct REF {
     int16 vss;
@@ -126,6 +126,7 @@ int main()
     {   
         UART_SpiUartClearRxBuffer();
         while(UART_SpiUartGetRxBufferSize() == 0u);
+        
         cmd = UART_UartGetByte();
         
         checksum = 0xFF;
@@ -187,7 +188,7 @@ int main()
                 txbyte = _VERSION_ >> 8;
                 checksum -= txbyte;
                 UART_UartPutChar(txbyte);
-                txbyte = _VERSION_;
+                txbyte = _VERSION_ & 0x00FF;
                 checksum -= txbyte;
                 UART_UartPutChar(txbyte);
             break;

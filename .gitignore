@@ -43,3 +43,4 @@ firmware/*.cydsn/CortexM0/ARM_GCC_*/*/*.a
 firmware/*.cydsn/CortexM0/ARM_GCC_*/*/*.log
 firmware/*.cydsn/CortexM0/ARM_GCC_*/*/*.txt
 firmware/*.cydsn/CortexM0/ARM_GCC_*/*/library.deps
+firmware/*.cydsn/CortexM0/ARM_GCC_*/*/*
